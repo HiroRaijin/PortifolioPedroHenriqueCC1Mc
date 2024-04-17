@@ -1,79 +1,110 @@
 <html>
 
 <head>
+    <title> Portfólio Virtual </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="index.css">
-    <title> Curriculum Vitae </title>
-    <h1> Curriculo Virtual </h1>
 </head>
 
 <body>
-    <div class="eu">
-    <h2> Pedro Henrique de Souza da Silva </h2>
-    <img width="200px" src="./Images/Fotinha Huehue.jpg" alt="My Photo">
-    <h2>Sobre mim</h2>
-    <p> Sou Pedro Henrique e tenho 18 anos. Tenho Ensino Médio completo com formação em Tec. em Agropecuária. Tenho
-        muita facilidade com trabalhos em equipe e praticidade na aprendizagem de novas coisas.</p>
-    <p> Atualmente curso Ciências da Computação na Universidade de Vila Velha! </p>
+ 
+    <div class="hero">
+        <nav>
+            <h2 class="logo">Portfó<span>lio</span></h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre mim</a></li>
+                <li><a href="#">Habilidades</a></li>
+                <li><a href="#">Entre em Contato</a></li>
+            </ul>
+            <a href="#" class="btn">Se Inscreva</a>
+        </nav>
+
+        <div class="content">
+            <h4> Olá, meu nome é</h4>
+            <h1>Pedro <span>Henrique</span></h1>
+            <h3>Futuro Ciêntista da Computação</h3>
+            <div class="newslatter">
+                <form>
+                    <input type="email" name="email" id="mail" placeholder="Insira Seu Email">
+                    <input type="submit" name="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
     </div>
-    <h2>Qualidades</h2>
-    <ul>
-        <li> Bom trabalho em equipe</li>
-        <li>Criatividade</li>
-        <li>Conhecimento de manutenção em T.I.</li>
-        <li>Facilidade em resolução de problemas</li>
-    </ul>
+    <section class="about">
+        <div class="main">
+            <img src="Images/eumemo.jpg">
+            <div class="about-text">
+                <h2>Sobre Mim</h2>
+                <h5>Desenvolvedor & Designer <span>Em Aprendizagem</span></h5>
+                <p>Estou me desevolvendo aos poucos para ser um desenvolvedor Full-Stack. Constantemente proucuro mergulhar em cursos e fazer atividades para aprimorar meu conhecimento, indo muito além do que vejo apenas na Universidade. Meu objetivo é estar sempre renovado em aprendizagens e ser marcante na área em que quero atuar. Me sinto confortavel para explorar novos horizontes e continuar aprendendo sobre essa área que sempre está sendo aprimorada.</p>
+                <button type="button">Vamos Conversar</button>
+            </div>
+        </div>
+    </section>
+    <div class="service">
+        <div class="title">
+            <h2>Habilidades</h2>
+        </div>
 
-    <h2> Pontos Positivos </h2>
-    <p>Sou produtivo e tenho facilidade em criar algoritmos para solucionar problemas, consigo ser positivo mesmo em
-        momentos de adversidades e gosto de incentivar a melhora da equipe no geral</p>
+        <div class="box">
+            <div class="card">
+                <i class="fas fa-bars"></i>
+               <h5>Estágios & <span>Trabalhos</span></h5>
+               <div class="pra">
+                <p>Estou no processo Treinee da <span>Empresa Junior da Universidade de Vila Velha</span>. Sobre a área de computação em si, não atuo ainda na área como um <span>Designer</span> ou um <span>Programador</span>. </p>
 
-    <h2>Experiências Passadas</h2>
-    <table border="5">
-        <thead>
-            <th>Nome</th>
-            <th>Cargo</th>
-            <th>Salário</th>
-            <th>Observação</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>AR Cyber</td>
-                <td>Téc. T.i.</td>
-                <td>R$250 Mensal</td>
-                <td>Estágio Informal</td>
-            </tr>
-        </tbody>
-        <tfoot>
+                <p style="text-align: center;">
+                    <a class="button" href="#">Ler Mais</a> 
+                </p>
+               </div>
+            </div>
 
-        </tfoot>
-    </table>
+            <div class="card">
+                <i class="far fa-user"></i>
+               <h5>Aprendizados & <span>Habilidades</span></h5>
+               <div class="pra">
+                <p>Estou no processo Treinee da <span>Empresa Junior da Universidade de Vila Velha</span>. Sobre a área de computação em si, não atuo ainda na área como um <span>Designer</span> ou um <span>Programador</span>. </p>
 
+                <p style="text-align: center;">
+                    <a class="button" href="#">Ler Mais</a> 
+                </p>
+               </div>
+            </div>
 
-    <h1>Contato</h1>
-    <form action="#" method="get">
-        <label for="name">Nome Completo</label> <br>
-        <input type="text" id="name" name="name">
-        <br>
-        <label for="email">Email</label> <br>
-        <input type="text" name="email" id="email">
-        <br>
-        <label for="mensagem">Mensagem</label><br>
-        <textarea name="mensagem" cols="30" rows="10"></textarea><br>
-        <label for="dob">Data de Nascimento</label><br>
-        <input type="date" name="dob"><br>
-        <label for="cor">Cor Preferida</label><br>
-        <input type="color"><br>
-        <input type="submit">
-    </form>
+            <div class="card">
+                <i class="far fa-bell"></i>
+               <h5>Realizações & <span>Conquistas</span></h5>
+               <div class="pra">
+                <p>Estou no processo Treinee da <span>Empresa Junior da Universidade de Vila Velha</span>. Sobre a área de computação em si, não atuo ainda na área como um <span>Designer</span> ou um <span>Programador</span>. </p>
 
+                <p style="text-align: center;">
+                    <a class="button" href="#">Ler Mais</a> 
+                </p>
+               </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contactme">
+        <p>Precisando de um novo Treinee/Estagiário?</p>
+        <a class="button-two" href="#">Me Contrate</a>
+    </div>
+
+    <footer>
+        <p>Pedro Henrique</p>
+        <p>AMPFNAPNFPAJMPWDFMPAINFPMWFPOMNFPOANWPFNASPFONMAPMWPFMPOWNMFPANWp</p>
+        <div class="social">
+            <a href="$"><i class="fab fa-instagram"></i></a>
+            <a href="$"><i class="fab fa-github"></i></a>
+            <a href="$"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p class="end">Inspired by Tahmid's design</p>
+    </footer>
 </body>
-
-<footer>
-    <h2>Redes Sociais</h2>
-    <a href="https://www.instagram.com/https_phzin022/" target="_blank"><img width="40px"
-            src="https://th.bing.com/th/id/R.f7f657b1e89a075b6062aba291d97af0?rik=rmFb%2bPjC101nmg&riu=http%3a%2f%2fassets.stickpng.com%2fimages%2f5ecec6ef73e4440004f09e75.png&ehk=ZqYG1phH6nCVafMzgTfRXutQ3G%2b7%2fOxD6A7t24By%2bq8%3d&risl=&pid=ImgRaw&r=0."
-            alt="Instagram"></a>
-
-</footer>
 
 </html>
