@@ -3,6 +3,7 @@
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 .hero{
     height: 100vh;
@@ -26,7 +27,8 @@ nav{
     cursor: pointer;
 }
 span{
-    color: #481846;
+    color: #722769;
+    font-weight: bold;
 }
 nav ul li{
     list-style-type: none;
@@ -112,6 +114,7 @@ h4{
 .about img{
     height: auto;
     width: 430px;
+    border-radius: 70px;
 }
 .about-text{
     width: 550px;
